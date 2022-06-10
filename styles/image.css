@@ -1,0 +1,50 @@
+.control {
+  display: flex;
+  flex-direction: row;
+}
+
+.control .img-picture {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  flex: 90%;
+}
+
+#display {
+  margin: 25px 0px 0px 0px;
+}
+
+.img-title {
+  background-color: whitesmoke;
+}
+
+.left-icon {
+  background-image: url("../media/left.png");
+  background-size: 110%;
+  flex: 5%;
+}
+.right-icon {
+  background-image: url("../media/right.png");
+  background-size: 110%;
+  flex: 5%;
+}
+
+.below {
+  display: flex;
+  flex-direction: row;
+  background-color: whitesmoke;
+}
+
+.below .img-username {
+  flex: 95%;
+}
+
+.delete-icon {
+  background-image: url("../media/delete-icon.png");
+  background-size: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex: 5%;
+  border: 2px #3c3d3f;
+  border-style: solid;
+}

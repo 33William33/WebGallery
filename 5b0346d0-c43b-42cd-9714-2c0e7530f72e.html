@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <link href="styles/form.css" rel="stylesheet" type="text/css" />
+    <link href="styles/image.css" rel="stylesheet" type="text/css" />
+    <link href="styles/comment.css" rel="stylesheet" type="text/css" />
+    <title>The Web Gallery</title>
+  </head>
+  <body>
+    <header>
+      <a href="/" id="title">The Web Gallery</a>
+    </header>
+    <label type="submit" class="switch">
+      <input id="check" type="checkbox" />TOGGLE</label
+    >
+    <form class="form" id="create-add-form">
+      <div id="title-line">
+        <div class="form-title">Add your image</div>
+      </div>
+      <input
+        type="text"
+        id="image-title"
+        class="form-format"
+        placeholder="Enter image title"
+        name="imgt"
+        required
+      />
+      <input
+        type="text"
+        id="author-name"
+        class="form-format"
+        placeholder="Enter author name"
+        name="iauthname"
+        required
+      />
+      <input
+        type="url"
+        id="image-address"
+        class="form-format"
+        name="url"
+        placeholder="Enter the image url"
+        required
+      />
+      <button type="submit" class="btn">Add</button>
+    </form>
+
+    <div id="display"></div>
+    <div id="comt-form"></div>
+    <div id="comments"></div>
+
+    <footer>
+      <a href="/credits.html">credits</a>
+    </footer>
+    <script src="js/api-service.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

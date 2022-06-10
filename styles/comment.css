@@ -1,0 +1,52 @@
+#comments {
+  background-color: whitesmoke;
+  border: 2px #3c3d3f;
+  border-style: solid;
+}
+.cmt {
+  border: 2px #3c3d3f;
+  border-style: none none solid none;
+}
+
+.cmt-control {
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cmt-control .left-cmt {
+  background-image: url("../media/left.png");
+  background-size: 25px;
+  background-position: center;
+  flex: 50%;
+  border: 2px #3c3d3f;
+  border-style: solid;
+}
+
+.cmt-control .right-cmt {
+  background-image: url("../media/right.png");
+  background-size: 25px;
+  background-position: center;
+  flex: 50%;
+  border: 2px #3c3d3f;
+  border-style: solid;
+}
+
+.time-below {
+  display: flex;
+  flex-direction: row;
+}
+
+.time-below .cmt-time {
+  flex: 93%;
+}
+
+.time-below .delete-cmt {
+  background-image: url("../media/delete-icon.png");
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex: 7%;
+  border: 2px #3c3d3f;
+  border-style: solid;
+}
